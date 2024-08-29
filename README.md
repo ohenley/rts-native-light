@@ -1,14 +1,15 @@
-# Light x86-64 Runtime for Ada GNAT
+# Light "native" Runtime for Ada GNAT
 
-This is a lightweight runtime for Ada GNAT, x86-64, no OS. It provides a minimal set of features for scenarios where a full native runtime is not necessary or desired, such x86-64 kernel development.
-
+This is a runtime for Ada GNAT, a "native" platform like Linux, but without OS support. 
+It provides minimal features for scenarios where a full native runtime is not necessary or desired, such as kernel development.
 
 ## Project Structure
 
-- Light x86-64 Ada Runtime: `./`
+- Light Ada Runtime: `./`
 - Example code and Makefile to test this runtime: `./example`
 
 ## Usage
+Note: known to build for x86-64 using latest Alire GNAT compiler (Linux)
 
 ### Building the Runtime
 
